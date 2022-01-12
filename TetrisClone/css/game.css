@@ -1,0 +1,153 @@
+#myGameArea {
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+#gameContainer {
+	width: 480px;
+	height: 480px;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	position: absolute;
+}
+
+h1 {
+	text-align: center;
+}
+
+.button {
+	background-color: black;
+	border: 1px solid gold;
+	color: gold;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Impact;
+}
+
+.button:hover {
+	background-color: navy;
+}
+
+#dateParameterButtons{
+	text-align: center;
+	display: none;
+	top: 2%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+	z-index: 2;
+}
+
+#scoresTable {
+	text-align: center;
+	color: gold;
+	top: 15%;
+	border: 1px solid gold;
+	font-size: 20px;
+	font-family: Impact;
+	display: none;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#mainMenuButtons {
+	text-align: center;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+	display: none;
+}
+
+.MMButton {
+	width: 8em;
+}
+
+th {
+	font-weight: normal;
+}
+
+body {
+	background-image: url("background.png");
+}
+
+#loginFormContainer {
+	text-align: center;
+	color:gold;
+}
+
+#loginForm {
+	border: 1px solid gold;
+	padding: 17px 25px;
+	background-color: black;
+	width: 15em;
+	margin: 0 auto;
+}
+
+.textInput {
+	background-color: gold;
+	color: black;
+	padding: 8px;
+}
+
+#titleContainer {
+	text-align: center;
+	margin: 32px;
+}
+
+a {
+	text-align: center;
+}
+
+a:link {
+	color: purple;
+}
+
+a:visited {
+	color: red;
+}
+
+#navigationButtons {
+	display: none;
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#gameOverMenu {
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+p {
+	font-size: 18px; 
+	font-family: Impact;
+	color: gold;
+}
+
+h1 {
+	font-size: 32px; 
+	font-family: Impact;
+	color: orange;
+}
+
+#options {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
